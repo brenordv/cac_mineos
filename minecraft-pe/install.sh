@@ -1,6 +1,4 @@
 #!/bin/bash
-apt-get update -y
-apt-get upgrade -y
 ufw allow 19132/tcp
 apt-get install build-essential libtool-bin autoconf bison screen -y
 useradd -d /home/minecraft -m minecraft
